@@ -33,8 +33,13 @@ export default function App() {
 
   return (
     <>
-      <Plants addPlant={addPlant} />
-      <Carts cart={Cart} addPlant={addPlant} removePlant={removePlant} />
+      <header>
+        <h1>Proper Plants</h1>
+      </header>
+      <main>
+        <Plants addPlant={addPlant} />
+        <Carts cart={Cart} addPlant={addPlant} removePlant={removePlant} />
+      </main>
     </>
   );
 }

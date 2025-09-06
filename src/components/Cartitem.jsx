@@ -4,7 +4,7 @@ export default function Cartitem({ cart, addPlant, removePlant }) {
       <>
         {cart.map((plant) => {
           return (
-            <div key={plant.id}>
+            <div className="cartitem" key={plant.id}>
               <h3>
                 {plant.image} {plant.name}
               </h3>

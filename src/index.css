@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  display: grid;
+  gap: 1rem;
+}
+@media (width >= 500px) {
+  main {
+    grid-template-columns: 1fr, 1fr;
+  }
+}
+body {
+  padding: 1rem;
+}
+section {
+  border: 1ch, solid, black;
+  display: flex;
+  width: 15rem;
+  height: auto;
+  flex-direction: column;
+}
+.cart {
+  border: 1ch, solid, black;
+  width: 20rem;
+}
+.cartitem {
+  border: 0.25ch, dashed, black;
+  width: 15rem;
+}
